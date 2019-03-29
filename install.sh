@@ -30,7 +30,7 @@ if [ -f unifi_sysvinit_all.deb ]
 then
   rm unifi_sysvinit_all.deb
 fi
-wget https://dl.ui.com/unifi/5.10.17/unifi_sysvinit_all.deb || abort
+wget https://dl.ui.com/unifi/5.10.20/unifi_sysvinit_all.deb || abort
 sudo dpkg -i unifi_sysvinit_all.deb || abort
 rm unifi_sysvinit_all.deb || abort
 sudo service unifi start || abort
