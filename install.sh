@@ -19,7 +19,7 @@ sudo chown -R root:root /etc/systemd/system/getty@tty1.service.d
 sudo apt update
 sudo apt upgrade -y
 sudo apt install python3-pip git -y
-git clone http://github.com/recklessop/unifi-va.git /home/$me/unifi-va
+git clone http://github.com/thaicyber/unifi-va.git /home/$me/unifi-va
 sudo pip3 install -r /home/$me/unifi-va/requirements.txt
 sudo apt install curl net-tools apt-transport-https openjdk-8-jre-headless -y
 sudo apt install mongodb-org-server mongodb-org-shell mongodb-org-tools -y
